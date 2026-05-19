@@ -15,6 +15,7 @@ import importlib.util
 import html as html_lib
 import logging
 import secrets
+import pysqlite3 as sqlite3
 from datetime import datetime
 
 STOP_EVENT = threading.Event()
